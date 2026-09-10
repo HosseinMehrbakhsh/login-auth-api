@@ -27,26 +27,6 @@ This project was created as a JavaScript practice project, focusing on user auth
 - Fetch API
 - Local Storage
 
-## 🔑 Authentication Flow
-
-```text
-Create Account
-      ↓
-    Login
-      ↓
- Access Token
-      ↓
- Profile Page
-      ↓
-Access Token Expired
-      ↓
- Refresh Token
-      ↓
- New Access Token
-      ↓
- Profile Page
-```
-
 ## Project Preview
 
 ![Project Preview](assets/screenshot.webp)
