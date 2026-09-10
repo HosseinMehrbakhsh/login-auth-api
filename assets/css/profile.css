@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.closeBtn {
+    background-color: red;
+    padding: 10px 30px;
+    margin-top: 10px;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    font-size: 18px;
+    transition-duration: 0.3s;
+}
+
+.closeBtn:hover {
+    background-color: hsl(0, 100%, 40%);
+}
+
+.profile-container {
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+}
+
+.profile-card {
+    padding: 35px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+}
+
+.profile-avatar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.profile-avatar img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-info {
+    text-align: center;
+}
+
+.profile-name {
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.profile-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.profile-item:last-child {
+    border-bottom: none;
+}
+
+.profile-label {
+    font-weight: 600;
+    color: #555;
+}
+
+.profile-value {
+    color: #222;
+}
+
+.profile-value.role {
+    padding: 5px 12px;
+    border-radius: 20px;
+    background: #eee;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.error {
+    text-align: center;
+    background-color: hsl(0, 100%, 90%);
+    color: hsl(0, 100%, 15%);
+}
+
+.closeBtn_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
